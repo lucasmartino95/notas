@@ -77,9 +77,9 @@ En programación existen diferentes tipos de datos, los cuales indican **qué ti
 Para saber el tipo de dato de un valor, podemos usar la función `type()`:
 
 ```python
-print(type(5)) # Devolvera <class 'int'>
-print(type("Hola")) # Devolvera <class 'str'>
-print(type(True)) # Devolvera <class 'bool'>
+print(type(5)) # Devolverá <class 'int'>
+print(type("Hola")) # Devolverá <class 'str'>
+print(type(True)) # Devolverá <class 'bool'>
 ```
 
 ## Variables y constantes
