@@ -159,13 +159,33 @@ x = x + 1 # O bien se puede utilizar: x += 1
 print(x)
 ```
  
-[x] Falta completar
+Lista de operadores compuestos:
+
+
+| Operador | Forma abreviada | Forma común |
+|---|---|---|
+|+=|x += 2|x = x + 2|
+|-=|x -= 2|x = x - 2|
+|*=|x *= 2|x = x * 2|
+|/=|x /= 2|x = x / 2|
+|%=|x %=2|x = x % 2|
+|//=|x //= 2|x = x // 2|
+|**=|x **= 2|x = x ** 2|
 
 ### Relacionales o de comparación
 
 Los operadores relacionales **toman números y devuelven como resultado un valor lógico**, es decir, verdadero o falso.
 
-[x] Falta completar
+Lista de operadores relacionales:
+
+| Operador | Nombre | Ejemplo | Resultado |
+|---|---|---|---|
+| < | Menor que | 4 < 5 | Verdadero |
+| <= | Menor o igual que | 5 <= 5| Verdadero |
+| > | Mayor que | 4 > 5 | Falso |
+| >= | Mayor o igual que | 5 >= 5 | Verdadero |
+| == | Igual que | 4 == 5 | Falso |
+| != | Distinto de | 4 != 5 | Verdadero |
 
 ## Estructuras condicionales
 
