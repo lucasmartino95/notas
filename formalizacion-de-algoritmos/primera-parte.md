@@ -1,5 +1,5 @@
 # Introducción
-En este documento se detallan **temas fundamentales** de programación, como qué es un algoritmo, tipos de datos, estructuras de programación y algunas aclaraciones sobre cómo resolver problemas sencillos.
+En este documento se detallan **temas fundamentales** de programación, como qué es un algoritmo, tipos de datos, variables y constantes, estructuras de programación y algunas aclaraciones sobre cómo resolver problemas sencillos. Los ejemplos de código estarán escritos en **Python**.
 
 ## Algoritmo
 
@@ -40,3 +40,30 @@ En programación existen diferentes tipos de datos, los cuales indican **qué ti
 #### Lógicos
 - **Verdadero**: true
 - **Falso**: false
+
+## Variables y constantes
+
+Una **variable** es un espacio en la memoria que **guarda un valor que puede cambiar** durante la ejecución de un programa.
+
+Una **constante** es un valor que **no cambia** durante la ejecución de un programa.
+
+### Variables en Python
+
+ ```python
+ # Crea una variable llamada var y guarda el valor 1
+var = 1
+print(var)
+
+# Toma el valor de var, sumale 1 y vuelvelo a guardar en la variable var
+var = var + 1
+print(var) # Imprime el nuevo valor de var
+ ```
+
+### Constantes en Python
+
+En Python no existen las constantes, sin embargo se puede seguir una convención para mantener el código legible. Se trata de escribir el **nombre de la constante en mayúsculas**.
+
+```python
+TITULO_CURSO = "curso introducción"
+```
+
