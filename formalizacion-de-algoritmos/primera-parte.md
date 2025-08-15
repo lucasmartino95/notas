@@ -25,7 +25,7 @@ Es un **conjunto de pasos lógicos y estructurados** que nos permiten dar soluci
 
 ### Descomposición de un algoritmo
 
-1. **Definición del problema**: Establecer resultados y objetivos para saber si los resultados que se tienen son suficientes para lograr los fines propuestos.
+1. **Definición del problema**: Establecer resultados y objetivos para saber si los datos que se tienen son suficientes para lograr los fines propuestos.
 2. **Análisis**: Organizar los datos de manera tal que se puedan usar en los cálculos siguientes.
 3. **Diseño**: Solucionar un problema, aplicando conocimientos y datos existentes.
 4. **Verificación a prueba de escritorio**: Comprobar que el algoritmo sirve o requiere modificarse.
