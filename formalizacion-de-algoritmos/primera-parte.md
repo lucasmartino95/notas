@@ -2,10 +2,13 @@
 En este documento se detallan **temas fundamentales** de programación, como: 
 
 - **Algoritmo**
+- **Lenguajes  de programación**
 - **Tipos de datos**
 - **Variables y constantes** 
 - **Expresion e instrucción**
+- **Interacción con el usuario**
 - **Operadores**
+- **Interpolación**
 - **Estructuras condicionales**
 - **Trabajar con porcentajes** 
 
@@ -34,6 +37,27 @@ Se puede representar un algoritmo a través de diagramas o código.
 
 - **Diagrama**: [De flujo (flowchart)](https://es.wikipedia.org/wiki/Diagrama_de_flujo) o [Nassi-Shneiderman](https://es.wikipedia.org/wiki/Diagrama_Nassi-Shneiderman).
 - **Código**: [Pseudocódigo](https://es.wikipedia.org/wiki/Pseudoc%C3%B3digo) o lenguaje real.
+
+## Lenguajes de programación
+
+Hay **muchos lenguajes de programación** que podemos utilizar para desarrollar nuestros programas. **Python** es uno de los lenguajes más sencillos de aprender ya que su **sintáxis** se asemeja mucho al inglés.
+
+Existen lenguajes de **alto nivel** y lenguajes de **bajo nivel**.
+
+Los lenguajes de **alto nivel** son los que se parecen al lenguaje que utilizamos los seres humanos para comunicarnos, mientras que los lenguajes de **bajo nivel**, son los que se acercan más al lenguaje máquina, es decir, el lenguaje que es directamente entendible por el hardware de una computadora.
+
+#### Algunos conceptos fundamentales
+
+- **Programa**: Es un conjunto de instrucciones, escritas en un lenguaje de programación, que le indica a la computadora como realizar una tarea específica.
+- **Alfabeto**: Un conjunto de símbolos utilizados para formar palabras de un determinado lenguaje.
+- **Léxico**: (también conocido como diccionario) Un conjunto de palabras que el lenguaje ofrece a sus usuarios.
+- **Sintáxis**: Un conjunto de reglas utilizadas para precisar si una determinada cadena de palabras forma una oración válida. Por ejemplo, "Soy una serpiente" es una frase sintácticamente correcta, mientras que "Yo serpiente soy una" no lo es.
+- **Semántica**: Un conjunto de reglas que determinan si una frase tiene sentido. Por ejemplo, "Me comí una dona" tiene sentido, pero "Una dona me comió" no lo tiene.
+
+Un programa escrito en un lenguaje de programación se denomina **código fuente**. Traducir este código fuente a lenguaje de máquina se puede hacer de dos maneras, las cuales también definen si un **lenguaje es de compilación o interpretado**:
+
+- **Compilador**: El código fuente se traduce una sola vez, al obtener el archivo que contiene el código máquina.
+- **Interpretación**: Cualquier usuario del código fuente puede traducir el programa cada vez que se quiere ejecutar.
 
 ## Tipos de datos
 
@@ -101,6 +125,30 @@ Una **instrucción** es una orden o comando que le indica a la computadora qué 
 
 ```python
 print(9 * 5) # Imprimir 45
+```
+## Interacción con el usuario
+
+La función `input()` es capaz de **leer datos ingresados** por el usuario. Luego, podemos guardar esos datos en una variable para utilizarlos después. Por ejemplo:
+
+```python
+algo = input("Escribir lo que sea...")
+print("Hmm..",algo,"...¿en serio?")
+```
+
+Hay que resaltar que la función `input()` **devuelve una cadena de caracteres**, por lo que no podemos hacer operaciones matemáticas, a menos que utilicemos funciones que Python ofrece, para convertir datos. Por ejemplo:
+
+```python
+numero = int(input("Ingresa un número: "))
+resultado = numero * 2
+print(numero,"multiplicado por 2 es", resultado)
+```
+
+El siguiente ejemplo calcula la longitud de la hipotenusa. Debido a que `print()` acepta una expresión como argumento, podemos hacer el calculo de la hipotenusa pasandole como argumento la expresión.
+
+```python
+leg_a = float(input("Ingresa la longitud del primer cateto: "))
+leg_b = float(input("Ingresa la longitud del segundo cateto: "))
+print("La longitud de la hipotenusa es:",(leg_a**2 + leg_b** 2) ** .5)
 ```
 
 ## Operadores
@@ -186,6 +234,23 @@ Lista de operadores relacionales:
 | >= | Mayor o igual que | 5 >= 5 | Verdadero |
 | == | Igual que | 4 == 5 | Falso |
 | != | Distinto de | 4 != 5 | Verdadero |
+
+## Interpolación
+
+La **interpolación** se refiere a la inserción de valores de variables o expresiones en una cadena de texto. En **Python** se puede utilizar **f-strings**. Por ejemplo:
+
+```python
+name = "Lucas"
+print(f"Hola {name}")
+```
+
+Otro ejemplo:
+
+```python
+numero_uno = 5
+numero_dos = 3
+print(f"La suma de {numero_uno} y {numero_dos} es: {numero_uno + numero_dos}")
+```
 
 ## Estructuras condicionales
 
