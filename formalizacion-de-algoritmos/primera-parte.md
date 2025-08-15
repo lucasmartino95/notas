@@ -47,16 +47,16 @@ Los lenguajes de **alto nivel** son los que se parecen al lenguaje que utilizamo
 
 #### Algunos conceptos fundamentales
 
-- **Programa**: Es un conjunto de instrucciones, escritas en un lenguaje de programación, que le indica a la computadora como realizar una tarea específica.
+- **Programa**: Es un conjunto de instrucciones, escritas en un lenguaje de programación, que le indica a la computadora cómo realizar una tarea específica.
 - **Alfabeto**: Un conjunto de símbolos utilizados para formar palabras de un determinado lenguaje.
 - **Léxico**: (también conocido como diccionario) Un conjunto de palabras que el lenguaje ofrece a sus usuarios.
 - **Sintáxis**: Un conjunto de reglas utilizadas para precisar si una determinada cadena de palabras forma una oración válida. Por ejemplo, "Soy una serpiente" es una frase sintácticamente correcta, mientras que "Yo serpiente soy una" no lo es.
 - **Semántica**: Un conjunto de reglas que determinan si una frase tiene sentido. Por ejemplo, "Me comí una dona" tiene sentido, pero "Una dona me comió" no lo tiene.
 
-Un programa escrito en un lenguaje de programación se denomina **código fuente**. Traducir este código fuente a lenguaje de máquina se puede hacer de dos maneras, las cuales también definen si un **lenguaje es de compilación o interpretado**:
+Un programa escrito en un lenguaje de programación se denomina **código fuente**. Traducir este código fuente a lenguaje de máquina se puede hacer de dos maneras, las cuales también definen si un **lenguaje es compilado o interpretado**:
 
-- **Compilador**: El código fuente se traduce una sola vez, al obtener el archivo que contiene el código máquina.
-- **Interpretación**: Cualquier usuario del código fuente puede traducir el programa cada vez que se quiere ejecutar.
+- **Compilado**: El código fuente se traduce una sola vez, al obtener el archivo que contiene el código máquina.
+- **Interpretado**: Cualquier usuario del código fuente puede traducir el programa cada vez que se quiere ejecutar.
 
 ## Tipos de datos
 
