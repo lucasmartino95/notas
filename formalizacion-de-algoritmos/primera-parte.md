@@ -201,14 +201,12 @@ print(5 * "2") # Imprimirá "22222"
 En Python no existe el operador ++ ni --, para lograr el mismo resultado, se utilizan **operadores compuestos**:
 
 ```python
-# Operador de incremento
 x = 5
 x = x + 1 # O bien se puede utilizar: x += 1
 print(x)
 ```
 
 ```python
-# Operador de decremento
 x = 5
 x = x - 1 # O bien se puede utilizar: x -= 1
 print(x)
