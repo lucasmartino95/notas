@@ -9,7 +9,6 @@ En este documento se detallan **temas fundamentales** de programación, como:
 - **Interacción con el usuario**
 - **Operadores**
 - **Interpolación**
-- **Estructuras condicionales**
 - **Trabajar con porcentajes** 
 
 Los ejemplos de código estarán escritos en **Python**.
@@ -251,10 +250,6 @@ numero_uno = 5
 numero_dos = 3
 print(f"La suma de {numero_uno} y {numero_dos} es: {numero_uno + numero_dos}")
 ```
-
-## Estructuras condicionales
-
-[x] Falta completar
 
 ## Trabajar con porcentajes
 
