@@ -4,6 +4,7 @@ En este documento se detallan **temas fundamentales** de programación, como:
 - **Algoritmo**
 - **Tipos de datos**
 - **Variables y constantes** 
+- **Expresion e instrucción**
 - **Operadores**
 - **Estructuras condicionales**
 - **Trabajar con porcentajes** 
@@ -88,6 +89,20 @@ TITULO_CURSO = "curso introducción"
 
 Si **no necesitamos** utilizar el valor de una variable o constante más de una vez, es recomendable **no crear variables** ya que nos ahorramos ocupar espacio en la memoria, lo cual hace que nuestro programa tenga mejor rendimiento.
 
+## Expresión e instrucción
+
+Una **expresión** es una combinación de elementos que se evalúa para producir un único valor. Por ejemplo:
+
+```python
+9 * 5
+```
+
+Una **instrucción** es una orden o comando que le indica a la computadora qué acción específica debe realizar. Por ejemplo:
+
+```python
+print(9 * 5) # Imprimir 45
+```
+
 ## Operadores
 
 ### Aritméticos
@@ -143,7 +158,7 @@ x = 5
 x = x + 1 # O bien se puede utilizar: x += 1
 print(x)
 ```
-
+ 
 [x] Falta completar
 
 ### Relacionales o de comparación
