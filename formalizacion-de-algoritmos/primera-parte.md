@@ -145,7 +145,7 @@ algo = input("Escribir lo que sea...")
 print("Hmm..",algo,"...¿en serio?")
 ```
 
-Hay que resaltar que la función `input()` **devuelve una cadena de caracteres**, por lo que no podemos hacer operaciones matemáticas, a menos que utilicemos funciones que Python ofrece, para convertir datos. Por ejemplo:
+Hay que resaltar que la función `input()` **devuelve una cadena de caracteres**, por lo que no podemos hacer operaciones matemáticas, a menos que utilicemos funciones que Python ofrece, para convertir datos. Esto es conocido como **casteo** o **casting**. Por ejemplo:
 
 ```python
 numero = int(input("Ingresa un número: "))
