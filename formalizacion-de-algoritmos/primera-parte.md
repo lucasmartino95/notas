@@ -112,6 +112,12 @@ TITULO_CURSO = "curso introducción"
 
 Si **no necesitamos** utilizar el valor de una variable o constante más de una vez, es recomendable **no crear variables** ya que nos ahorramos ocupar espacio en la memoria, lo cual hace que nuestro programa tenga mejor rendimiento.
 
+#### Nombrando variables
+Existe una [convención de nomenclaturas](https://www.python.org/dev/peps/pep-0008/) para variables y funciones:
+
+- Los nombres de las variables deben estar en minúsculas, con palabras separadas por guiones bajos. Por ejemplo: var, my_variable. Esto es conocido como **snake_case**.
+- También es posible usar letras mixtas, por ejemplo: myVariable. Pero solo en contextos donde ese estilo es el predominante.
+
 ## Expresión e instrucción
 
 Una **expresión** es una combinación de elementos que se evalúa para producir un único valor. Por ejemplo:
