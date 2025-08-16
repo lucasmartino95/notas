@@ -210,7 +210,7 @@ acumulador = acumulador + 40
 print(acumulador)
 ```
 
-## Redundancia
+# Redundancia
 
 La redundancia es **algo que se repite innecesariamente**. En este caso, hablamos de redundancia cuando hacemos preguntas repetitivas. Por ejemplo:
 
