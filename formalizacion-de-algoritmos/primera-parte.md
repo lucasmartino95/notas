@@ -115,8 +115,9 @@ Si **no necesitamos** utilizar el valor de una variable o constante más de una 
 #### Nombrando variables
 Existe una [convención de nomenclaturas](https://www.python.org/dev/peps/pep-0008/) para variables y funciones:
 
-- Los nombres de las variables deben estar en minúsculas, con palabras separadas por guiones bajos. Por ejemplo: var, my_variable. Esto es conocido como **snake_case**.
+- Los nombres de las variables o funciones deben estar en minúsculas, con palabras separadas por guiones bajos. Por ejemplo: var, my_variable. Esto es conocido como **snake_case**.
 - También es posible usar letras mixtas, por ejemplo: myVariable. Pero solo en contextos donde ese estilo es el predominante.
+- Por último, el nombre de la variable o función no puede ser igual a alguna de las [palabras reservadas en Python](https://docs.python.org/3/reference/lexical_analysis.html#keywords) (o palabras clave).
 
 ## Expresión e instrucción
 
