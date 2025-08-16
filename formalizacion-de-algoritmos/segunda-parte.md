@@ -188,7 +188,9 @@ print(contador)
 Un **contador** puede tener cambios de forma ascendente o decreciente.
 
 ```python
-contador = 3
+contador = 4
+contador = contador - 1
+print(contador)
 contador = contador - 1
 print(contador)
 contador = contador - 1
