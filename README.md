@@ -1,3 +1,5 @@
-# Notes
+# Detalles
 
-This repository serves as a place to store programming notes in Spanish. It also includes notes on specific courses such as front-end web development.
+Este repositorio funciona como lugar para guardar notas de programación y de algunos cursos específicos como [desarrollo web front-end](https://developer.mozilla.org/en-US/docs/Learn_web_development).
+
+GitHub añade una tabla de contenidos a los archivos de markdown, [acá](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#headings) se muestra cómo desplegar dicha tabla. 
