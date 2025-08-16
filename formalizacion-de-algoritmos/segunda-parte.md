@@ -219,7 +219,7 @@ edad = 17
 if edad >= 18:
     print("Es mayor de edad.")
 elif numero < 18:
-    print("No es mayor de edad.)
+    print("No es mayor de edad.")
 ```
 
 No es necesario utilizar `elif` para hacer otra pregunta, ya que si la edad no es mayor o igual que 18, la edad sí o sí tiene que ser menor que 18.
@@ -229,5 +229,5 @@ edad = 17
 if edad >= 18:
     print("Es mayor de edad.")
 else:
-    print("No es mayor de edad.)
+    print("No es mayor de edad.")
 ```
