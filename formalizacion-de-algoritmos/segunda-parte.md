@@ -167,3 +167,41 @@ print(soy_robot)
 valorA = False
 print(not valorA)
 ```
+
+# Contadores y acumuladores
+
+Un **contador** es una variable entera que se utiliza para llevar la cuenta del número de veces que ocurre un evento o se cumple una condición. Tiene dos características:
+
+- Siempre tiene un valor inicial.
+- El valor nuevo del contador es el resultado del valor anterior más una constante.
+
+```python
+contador = 0
+contador = contador + 1
+print(contador)
+```
+
+Un **contador** puede tener cambios de forma ascendente o decreciente.
+
+```python
+contador = 0
+contador = contador + 1
+print(contador)
+contador = contador + 1
+print(contador)
+contador = contador + 1
+print(contador)
+```
+
+Un **acumulador** tiene las mismas características que el contador, solo que el valor de incremento o decremento es un valor variable.
+
+Por ejemplo, una cuenta de ahorros puede representarse en un algoritmo mediante un acumulador, pues quien ahorra no siempre lo hará con una cantidad fija en la cuenta: un día deposita 10, otro día deposita 30, otro deposita 5.
+
+Con el ejemplo de ahorro, se puede determinar que en el acumulador no siempre se añade un valor positivo, pues cuando se hace un retiro, se puede interpretar como que el valor añadido es negativo.
+
+```python
+acumulador = 0
+acumulador = acumulador + 20
+acumulador = acumulador + 40
+print(acumulador)
+```
