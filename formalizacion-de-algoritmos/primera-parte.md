@@ -44,7 +44,7 @@ Hay **muchos lenguajes de programación** que podemos utilizar para desarrollar 
 Existen lenguajes de **alto nivel** y lenguajes de **bajo nivel**.
 
 #### Lenguajes de alto nivel
-Se parecen al lenguaje que utilizamos los seres humanos para comunicarnos 
+Se parecen al lenguaje que utilizamos los seres humanos para comunicarnos.
 
 #### Lenguajes de bajo nivel
 Son los que se acercan más al lenguaje máquina, es decir, al lenguaje que es directamente entendible por el hardware de una computadora.
