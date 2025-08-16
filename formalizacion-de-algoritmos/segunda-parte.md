@@ -103,4 +103,67 @@ match opcion:
 
 Los comentarios son útiles para **aclarar** lo que hace determinado bloque de código. Además, los comentarios son ignorados por el intérprete de Python, solo están en el código como referencia.
 
-## Operadores lógicos
+# Operadores lógicos
+
+Los **operadores lógicos** sirven para combinar expresiones booleanas (que devuelven verdadero o falso) y así construir condiciones más complejas.
+
+En **Python**, podemos encontrar los siguientes operadores lógicos:
+
+- **Conjunción (Y / AND)** : "Para considerar aprobado al alumno, debe aprobar ambos exámenes: oral y escrito". Depende del cumplimiento simultaneo de dos condiciones.
+- **Disyunción (O / OR)**: "Para considerar aprobado al alumno, debe aprobar algún examen: oral o escrito".  Para aprobar el examen depende de al menos una de las dos condiciones.
+- **Negación (NO / NOT)**: Conectivo monádico (una sola proposición).
+
+#### Operador AND
+
+Es un **operador binario** con una prioridad inferior a la expresada por los operadores de comparación.
+
+```python
+vida = 3
+energia = 70
+
+print(vida > 0 and energia > 50)
+```
+
+Podemos determinar el resultado de la expresión utilizando la **tabla de la verdad**:
+
+|#|Argumento A|Argumento B|A and B|
+|---|---|---|---|
+|1|False|False|False|
+|2|False|True|False|
+|3|True|False|False|
+|4|True|True|True|
+
+#### Operador OR
+
+Es un **operador binario** con una prioridad más baja que `and`
+
+```python
+vida = 0
+energia = 70
+
+print(vida > 0 or energia > 50)
+```
+
+Tabla de la verdad:
+
+|#|Argumento A|Argumento B|A or B|
+|---|---|---|---|
+|1|False|False|False|
+|2|False|True|True|
+|3|True|False|True|
+|4|True|True|True|
+
+#### Operador NOT
+
+Es un **operador unario** que realiza una negación lógica. Su funcionamiento es simple: **convierte la verdad en falso y lo falso en verdad**. Su prioridad es muy alta: igual que el unario + y -
+
+```python
+soy_robot = True
+print(soy_robot)
+
+soy_robot = not soy_robot
+print(soy_robot)
+
+valorA = False
+print(not valorA)
+```
