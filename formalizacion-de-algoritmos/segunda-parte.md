@@ -57,7 +57,7 @@ else:
     print("Es menor de edad.")
 ```
 
-La **sangria** mejora la legibilidad y hace que el código sea más fácil de entender y rastrear. Se recomienda elegir entre el **espacio o tabulador** para lograr la sangria. Además, es una **regla de sintáxis** en Python, para ejecutar bloques de código.
+La **sangria** mejora la legibilidad y hace que el código sea más fácil de entender y rastrear. Se debe elegir entre el **espacio o tabulador** para lograr la sangria. Además, es una **regla de sintáxis** en Python, para ejecutar bloques de código.
 
 ### Instrucción elif
 
