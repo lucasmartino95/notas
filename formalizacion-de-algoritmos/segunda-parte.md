@@ -170,7 +170,11 @@ print(not valorA)
 
 # Contadores y acumuladores
 
-Un **contador** es una variable entera que se utiliza para llevar la cuenta del número de veces que ocurre un evento o se cumple una condición. Tiene dos características:
+Un **contador** es una variable entera que se utiliza para llevar la cuenta del número de veces que ocurre un evento o se cumple una condición. 
+
+Por ejemplo, al visitar el departamento de servicio al cliente en una empresa, los clientes para obtener un turno deben tomar un ticket. Un letrero electrónico indica el número del cliente que se está atendiendo, luego éste número cambia incrementándose en 1 para anunciar el siguiente turno a ser atendido.
+
+Tiene dos características:
 
 - Siempre tiene un valor inicial.
 - El valor nuevo del contador es el resultado del valor anterior más una constante.
