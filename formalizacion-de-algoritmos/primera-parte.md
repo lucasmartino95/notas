@@ -39,7 +39,7 @@ Se puede representar un algoritmo a través de diagramas o código.
 
 ## Lenguajes de programación
 
-Hay **muchos lenguajes de programación** que podemos utilizar para desarrollar nuestros programas. **Python** es uno de los lenguajes más sencillos de aprender ya que su **léxico** y **sintáxis** se asemeja mucho al inglés.
+Hay **muchos lenguajes de programación** que podemos utilizar para desarrollar nuestros programas. **Python** es uno de los lenguajes más sencillos de aprender ya que su **léxico** y **sintáxis** se asemejan mucho al inglés.
 
 Existen lenguajes de **alto nivel** y lenguajes de **bajo nivel**.
 
