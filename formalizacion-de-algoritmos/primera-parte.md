@@ -188,6 +188,18 @@ Primero se realiza la multiplicación, y luego la suma, por lo que quedaría:
 2 + 15 # Resultado 17
 ```
 
+#### Operador aritmético de raíz
+
+Para hacer la raíz de un número podemos utilizar fracciones. Por ejemplo:
+
+
+```python
+raiz_cuadrada = 4 ** (1/2)
+raiz_cubica = 27 ** (1/3)
+
+print(raiz_cuadrada, raiz_cubica)
+```
+
 ### De cadena y de replicación
 
 El signo + (más), al ser aplicado a dos cadenas, se convierte en un **operador de concatenación**:

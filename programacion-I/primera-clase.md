@@ -1,0 +1,80 @@
+# PEP8
+
+**P**ython **E**nhancement **P**roposal es un documento que detalla recomendaciones para que nuestro código sea más legible. Abarca desde cómo nombrar variables, al número máximo de caracteres que una línea debe tener.
+
+Es importante tener un **código resumido**, es decir, que no tenga cosas repetitivas.
+
+También, evitar usar condicionales anidados si no es necesario, ya que pueden dificultar la lectura del código.
+
+## Reglas
+
+#### Indentado
+
+En Python, se usa un **bloque indentado** para indicar que un determinado bloque de código pertenece a un contexto en particular. Por ejemplo:
+
+```python
+if condicion:
+    # Código
+```
+
+#### Tamaño máximo de línea
+
+Limitar el **tamaño máximo de la línea a 79 caracteres** para evitar tener que hacer scroll horizontal y que el código sea más legible. Por ejemplo:
+
+```python
+numero_uno = 5
+numero_dos = 3
+numero_tres= 8
+
+resultado = (numero_uno
+          + numero_dos 
+          - (numero_uno + numero_dos)
+          - numero_tres)
+
+print(resultado)
+```
+
+#### Espacios en blanco
+
+El uso de espacios en blanco mejora la legibilidad del código, por eso **PEP8** indica dónde debemos usar espacios y dónde no.
+
+```python
+# Correcto
+x = 5
+
+# Incorrecto
+x=5
+```
+
+```python
+# Correcto
+if x == 5:
+    pass
+
+# Incorrecto
+if x==5:
+    pass
+```
+
+```python
+# Correcto
+var_a = 0
+variable_b = 10
+otra_variable_c = 3
+
+# Incorrecto
+var_a           = 0
+variable_b      = 10
+otra_variable_c = 3
+```
+
+#### Variables
+
+- Debe iniciar con un guión bajo o una letra.
+- Que sea un sustantivo, que no sea un verbo.
+- Letras en minúsculas y con guiones bajo para separar palabras.
+- Los nombres de las variables son case-sensitive.
+
+#### Constantes
+
+- Se define en mayúsculas.
