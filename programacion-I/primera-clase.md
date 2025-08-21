@@ -72,7 +72,7 @@ otra_variable_c = 3
 
 - Debe iniciar con un guión bajo o una letra.
 - Que sea un sustantivo, que no sea un verbo.
-- Letras en minúsculas y con guiones bajo para separar palabras.
+- Letras en minúsculas y con guiones bajos para separar palabras.
 - Los nombres de las variables son case-sensitive.
 
 ### Constantes
@@ -128,9 +128,9 @@ Está orientada a flujos de datos y a la propagación de cambios. Los programas 
 
 Un **lenguaje compilado** requiere traducir el código fuente a código máquina. Una vez traducido (compilado), ya se puede ejecutar el programa a través del archivo que generó la traducción.
 
-En cambio, el **lenguaje interpretado**, cada vez que se ejecuta un programa, realiza la traducción en ese tiempo, lo que se denomina como traducción en tiempo de ejecución.
+En cambio, un **lenguaje interpretado**, cada vez que se ejecuta un programa, realiza la traducción en ese tiempo, lo que se denomina como traducción en tiempo de ejecución.
 
-Por último, un **lenguaje intermedio o bytecode** compila el código fuente para generar un código intermedio que se ejecuta en una máquina virtual y no en el procesador.
+Por último, un **lenguaje intermedio o bytecode** compila el código fuente para generar un código intermedio que se ejecuta en una máquina virtual, la cual se encarga de interpretarlo o compilarlo en código máquina para el procesador.
 
 **Por ejemplo** una **página web**, utiliza lenguajes de programación interpretados, ya que si los archivos que se ejecutan en tiempo de ejecución tienen algún error, la página web se muestra igual en función a si los errores son importantes o no. 
 
