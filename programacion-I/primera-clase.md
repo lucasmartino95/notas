@@ -87,13 +87,38 @@ Un paradigma de programación es un enfoque, una manera de resolver un problema.
 
 Programación secuencial. Usa ciclos y condiciones
 
+```python
+suma = 5 + 2
+print(suma)
+```
+
 #### Programación funcional
 
 Divide el programa en tareas pequeñas que son ejecutadas por funciones.
 
+```python
+def suma(num1, num2):
+    print(num1 + num2)
+
+suma(5, 2)
+```
+
 #### Programación orientada a objetos
 
 Agrupa las funciones en entidades llamadas objetos, los cuales tienen características y comportamientos específicos.
+
+```python
+class Calculadora:
+
+    def __init__(self, valor_inic):
+        self.valor_inicial = valor_inic
+
+    def suma(self, num1, num2):
+        print(num1 + num2)
+
+calc_1 = Calculadora(0)
+calc_1.suma(5, 2)
+```
 
 #### Programación reactiva
 
