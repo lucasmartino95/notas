@@ -134,4 +134,4 @@ Por último, un **lenguaje intermedio o bytecode** compila el código fuente par
 
 **Por ejemplo** una **página web**, utiliza lenguajes de programación interpretados, ya que si los archivos que se ejecutan en tiempo de ejecución tienen algún error, la página web se muestra igual en función a si los errores son importantes o no. 
 
-Si son importantes, probablemente no se mostrará bien o no funcionará completamente la página web.
+Si los errores son importantes, probablemente no se mostrará bien o no funcionará completamente la página web.
