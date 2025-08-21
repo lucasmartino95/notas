@@ -8,7 +8,7 @@ Además, evitar usar condicionales anidados si no es necesario, ya que pueden di
 
 ## Reglas
 
-#### Indentado
+### Indentado
 
 En Python, se usa un **bloque indentado** para indicar que un determinado bloque de código pertenece a un contexto en particular. Por ejemplo:
 
@@ -17,7 +17,7 @@ if condicion:
     # Código
 ```
 
-#### Tamaño máximo de línea
+### Tamaño máximo de línea
 
 Limitar el **tamaño máximo de la línea a 79 caracteres** para evitar tener que hacer scroll horizontal y que el código sea más legible. Por ejemplo:
 
@@ -34,7 +34,7 @@ resultado = (numero_uno
 print(resultado)
 ```
 
-#### Espacios en blanco
+### Espacios en blanco
 
 El uso de espacios en blanco mejora la legibilidad del código, por eso **PEP8** indica dónde debemos usar espacios y dónde no.
 
