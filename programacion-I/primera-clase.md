@@ -123,3 +123,11 @@ calc_1.suma(5, 2)
 #### Programación reactiva
 
 Está orientada a flujos de datos y a la propagación de cambios. Los programas están diseñados para reaccionar automaticamente a eventos o cambios en los datos de forma asíncrona.
+
+# Lenguaje compilado, lenguaje interpretado y lenguaje intermedio
+
+Un **lenguaje compilado** requiere traducir el código fuente a código máquina. Una vez traducido (compilado), ya se puede ejecutar el programa a través del archivo que generó la traducción.
+
+En cambio, el **lenguaje interpretado**, cada vez que se ejecuta un programa, realiza la traducción en ese tiempo, lo que se denomina como traducción en tiempo de ejecución.
+
+Por último, un **lenguaje intermedio o bytecode** compila el código fuente para generar un código intermedio que se ejecuta en una máquina virtual y no en el procesador.
