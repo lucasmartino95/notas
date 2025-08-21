@@ -4,7 +4,7 @@
 
 Es importante tener un **código resumido**, es decir, que no tenga cosas repetitivas.
 
-También, evitar usar condicionales anidados si no es necesario, ya que pueden dificultar la lectura del código.
+Además, evitar usar condicionales anidados si no es necesario, ya que pueden dificultar la lectura del código.
 
 ## Reglas
 
