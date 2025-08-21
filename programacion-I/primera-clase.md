@@ -128,7 +128,7 @@ Está orientada a flujos de datos y a la propagación de cambios. Los programas 
 
 Un **lenguaje compilado** requiere traducir el código fuente a código máquina. Una vez traducido (compilado), ya se puede ejecutar el programa a través del archivo que generó la traducción.
 
-En cambio, un **lenguaje interpretado**, cada vez que se ejecuta un programa, realiza la traducción en ese tiempo, lo que se denomina como traducción en tiempo de ejecución.
+En cambio, un **lenguaje interpretado**, cada vez que se ejecuta un programa, realiza la traducción a código máquina en ese tiempo, lo que se denomina como traducción en tiempo de ejecución.
 
 Por último, un **lenguaje intermedio o bytecode** compila el código fuente para generar un código intermedio que se ejecuta en una máquina virtual, la cual se encarga de interpretarlo o compilarlo en código máquina para el procesador.
 
