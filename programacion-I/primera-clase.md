@@ -131,3 +131,7 @@ Un **lenguaje compilado** requiere traducir el código fuente a código máquina
 En cambio, el **lenguaje interpretado**, cada vez que se ejecuta un programa, realiza la traducción en ese tiempo, lo que se denomina como traducción en tiempo de ejecución.
 
 Por último, un **lenguaje intermedio o bytecode** compila el código fuente para generar un código intermedio que se ejecuta en una máquina virtual y no en el procesador.
+
+**Por ejemplo** una **página web**, utiliza lenguajes de programación interpretados, ya que si los archivos que se ejecutan en tiempo de ejecución tienen algún error, la página web se muestra igual en función a si los errores son importantes o no. 
+
+Si son importantes, probablemente no se mostrará bien o no funcionará completamente la página web.
