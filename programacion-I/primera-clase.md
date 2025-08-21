@@ -68,13 +68,33 @@ variable_b      = 10
 otra_variable_c = 3
 ```
 
-#### Variables
+### Variables
 
 - Debe iniciar con un guión bajo o una letra.
 - Que sea un sustantivo, que no sea un verbo.
 - Letras en minúsculas y con guiones bajo para separar palabras.
 - Los nombres de las variables son case-sensitive.
 
-#### Constantes
+### Constantes
 
 - Se define en mayúsculas.
+
+# Paradigmas de programación
+
+Un paradigma de programación es un enfoque, una manera de resolver un problema. Estos paradigmas pueden ser:
+
+#### Programación estructurada
+
+Programación secuencial. Usa ciclos y condiciones
+
+#### Programación funcional
+
+Divide el programa en tareas pequeñas que son ejecutadas por funciones.
+
+#### Programación orientada a objetos
+
+Agrupa las funciones en entidades llamadas objetos, los cuales tienen características y comportamientos específicos.
+
+#### Programación reactiva
+
+Está orientada a flujos de datos y a la propagación de cambios. Los programas están diseñados para reaccionar automaticamente a eventos o cambios en los datos de forma asíncrona.
