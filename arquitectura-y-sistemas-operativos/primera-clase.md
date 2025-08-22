@@ -1,4 +1,8 @@
-# Computadora
+# Introducción
+
+Una computadora es un **dispositvo electrónico** capaz de procesar enormes secuencias de instrucciones muy velozmente.
+
+Las computadoras eran utilizadas para fines específicos y ocupaban grandes espacios físicos. Con el avance de la electrónica las computadoras **se volvieron más pequeñas y más poderosas**, también más accesibles economicamente ya que el coste de producción también se redujo. **Y su uso se volvió más general**.
 
 El fin último de una computadora es ingresarle datos, que haga el procesamiento
 y nos devuelva un resultado.
@@ -46,6 +50,31 @@ En los **registros** es donde se almacena momentaneamente algún dato específic
 
 La memoria está hecha de celdas, donde cada celda está identificada con un número. Es donde **se guardan los datos e instrucciones de nuestro programa** para que luego el procesador ejecute nuestro programa.
 
+#### Núcleos
+
+Podemos tener uno o más núcleos en nuestro procesador. Esto quiere decir que si tenemos por ejemplo cuatro núcleos, podemos ejecutar un programa en cada núcleo. Esto se llama multitarea
+
+#### Hilos
+
+(Falta completar)
+
+#### Reloj o clock
+
+(Falta completar)
+
+#### GHz
+
+Los GHz se traducen de esta manera, por ejemplo:
+3.7GHz = 3.700 millones de instrucciones por segundo.
+
+#### Overlock
+
+El overlock es una técnica utilizada para **aumentar** la frecuencia de reloj de un componente electrónico, en este caso del procesador.
+
+Una desventaja de utilizar esta técnica es que aumenta el calor que emite el procesador, ya que lo estamos forzando a trabajar más velozmente. También reduce la vida útil del componente.
+
 ### Ciclo de ejecución de instrucciones
 
 El procesador todo el tiempo está ejecutando instrucciones, lo que se denomina como ciclo de ejecución de instrucciones.
+
+## Explorar nuestro hardware
