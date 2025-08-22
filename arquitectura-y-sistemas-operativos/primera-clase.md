@@ -28,3 +28,8 @@ Componentes de salida:
 Componentes de entrada y salida:
 
 - Pendrive
+- Disco rígido o de estado sólido
+
+## Sistema binario
+
+Toda la información viaja a través de los distintos componentes en sistema binario, es decir con ceros y unos. También se puede referenciar el cero con "apagado" y el uno con "encendido".
