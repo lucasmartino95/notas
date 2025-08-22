@@ -6,5 +6,5 @@ GitHub añade una tabla de contenidos a los archivos markdown que tengan dos o m
 
 Si se quiere seguir un orden de aprendizaje:
 
-1. formalización-de-algoritmos
-2. programación-I
+1. **formalización-de-algoritmos**
+2. **programación-I**
