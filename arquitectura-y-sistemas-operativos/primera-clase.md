@@ -44,7 +44,7 @@ En los **registros** es donde se almacena momentaneamente algún dato específic
 
 #### Memoria RAM
 
-La memoria está hecha de celdas, donde cada celda está identificada con un número. Es donde **se guardan los datos e instrucciones de nuestro programa** para que luego el proceasdor ejecute nuestro programa.
+La memoria está hecha de celdas, donde cada celda está identificada con un número. Es donde **se guardan los datos e instrucciones de nuestro programa** para que luego el procesador ejecute nuestro programa.
 
 ### Ciclo de ejecución de instrucciones
 
