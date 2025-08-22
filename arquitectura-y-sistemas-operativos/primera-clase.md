@@ -37,7 +37,7 @@ El procesador tiene una **unidad de control** que es la responsable de procesar 
 
 La **unidad aritmética lógica** se encarga de realizar operaciones aritméticas, operaciones lógicas y operaciones de comparación. Recibe los datos de los registros del procesador, procesa las instrucciones y devuelve los resultados.
 
-Los **registros** del procesador son un tipo de memoria interna. Es donde se almacena momentaneamente algún dato específico. Por ejemplo, guarda la dirección de la celda de memoria en donde se debe ejecutar una instrucción.
+Los **registros** del procesador son un tipo de memoria interna. Es donde se almacena momentaneamente algún dato específico. Por ejemplo, guarda la dirección de la celda de memoria RAM en donde se debe ejecutar una instrucción.
 
 ### Un procesador está compuesto por
 
