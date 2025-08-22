@@ -43,7 +43,7 @@ Los **registros** del procesador son un tipo de memoria interna. Es donde se alm
 
 #### Núcleos
 
-Un núcleo es un bloque que ejecuta instrucciones
+Un núcleo es un **bloque que ejecuta instrucciones**.
 
 Podemos tener uno o más núcleos en nuestro procesador. Esto quiere decir que si tenemos por ejemplo cuatro núcleos, podemos ejecutar un programa en cada núcleo. Esto se llama **multitarea**.
 
@@ -59,7 +59,7 @@ Para utilizar múltiples núcleos y sus hilos **es necesario que los programas s
 
 #### Reloj o clock
 
-El reloj o clock es un **componente del microprocesador** que emite pulsos eléctricos a intervalos constantes llamados ciclos, estos **ciclos marcan el ritmo** que ha de seguirse para la realización de cada paso que consta la instrucción. La velocidad de reloj indica cuántos ciclos de procesamiento por segundo puede ejecutar una CPU teniendo en cuenta todas sus unidades de procesamiento (núcleos).
+El reloj o clock es un **componente del microprocesador** que emite pulsos eléctricos a intervalos constantes llamados ciclos, estos ciclos **marcan el ritmo** para todas las operaciones que realiza el procesador. La **velocidad de reloj** indica cuántos ciclos de procesamiento por segundo puede ejecutar una CPU teniendo en cuenta todas sus unidades de procesamiento (núcleos).
 
 **Esta velocidad se mide en GHz**, los cuales  se traducen de esta manera, por ejemplo:
 
