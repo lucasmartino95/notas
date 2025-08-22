@@ -80,7 +80,7 @@ Se puede decir que los hilos **convencen** al usuario y a la PC de que se pueden
 
 #### Reloj o clock
 
-El reloj o clock es un componente del microprocesador que emite pulsos eléctricos a intervalos constantes llamados ciclos, estos **ciclos marcan el ritmo** que ha de seguirse para la realización de cada paso que consta la instrucción. La velocidad de reloj indica cuántos ciclos de procesamiento por segundo puede ejecutar una CPU teniendo en cuenta todas sus unidades de procesamiento (núcleos).
+El reloj o clock es un **componente del microprocesador** que emite pulsos eléctricos a intervalos constantes llamados ciclos, estos **ciclos marcan el ritmo** que ha de seguirse para la realización de cada paso que consta la instrucción. La velocidad de reloj indica cuántos ciclos de procesamiento por segundo puede ejecutar una CPU teniendo en cuenta todas sus unidades de procesamiento (núcleos).
 
 **Esta velocidad se mide en GHz**, los cuales  se traducen de esta manera, por ejemplo:
 
