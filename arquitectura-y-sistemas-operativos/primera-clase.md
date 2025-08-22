@@ -29,29 +29,6 @@ Las computadoras convencionales siguen la arquitectura propuesta a principio de 
 
 Toda la información viaja a través de los distintos componentes en **sistema binario**, es decir con ceros y unos. También se puede referenciar el cero con "apagado" y el uno con "encendido".
 
-## Dispositivos de entrada y salida
-
-El fin último de una computadora es ingresarle datos, que haga el procesamiento
-y nos devuelva un resultado. Para esto, contamos con dispositivos de entrada y de salida.
-
-Dispositivos de entrada:
-
-- Teclado
-- Mouse
-- Micrófono
-
-Dispositivos de salida:
-
-- Monitor
-- Auriculares
-- Impresora
-
-Dispositivos de entrada y salida:
-
-- Pendrive
-- Disco rígido o de estado sólido
-- Pantalla táctil
-
 ## Procesador
 
 Es el responsable de **ejecutar programas**.
@@ -78,6 +55,8 @@ Por cada núcleo existen dos hilos, aunque puede haber excepciones.
 
 Se puede decir que los hilos **convencen** al usuario y a la PC de que se pueden realizar más tareas al mismo tiempo.
 
+Para utilizar múltiples núcleos y sus hilos **es necesario que los programas se comuniquen con cada uno de los núcleos**.
+
 #### Reloj o clock
 
 El reloj o clock es un **componente del microprocesador** que emite pulsos eléctricos a intervalos constantes llamados ciclos, estos **ciclos marcan el ritmo** que ha de seguirse para la realización de cada paso que consta la instrucción. La velocidad de reloj indica cuántos ciclos de procesamiento por segundo puede ejecutar una CPU teniendo en cuenta todas sus unidades de procesamiento (núcleos).
@@ -94,4 +73,27 @@ Una desventaja de utilizar esta técnica es que **aumenta el calor que emite el 
 
 ## Memoria RAM
 
-La memoria está hecha de celdas, donde cada celda está identificada con un número. Es donde **se guardan los datos e instrucciones de nuestro programa** para que luego el procesador ejecute nuestro programa.
+La memoria RAM está hecha de celdas, donde cada celda está identificada con un número. Es donde **se guardan los datos e instrucciones de nuestro programa** para que luego el procesador ejecute nuestro programa.
+
+## Dispositivos de entrada y salida
+
+El fin último de una computadora es ingresarle datos, que haga el procesamiento
+y nos devuelva un resultado. Para esto, contamos con dispositivos de entrada y de salida.
+
+Dispositivos de entrada:
+
+- Teclado
+- Mouse
+- Micrófono
+
+Dispositivos de salida:
+
+- Monitor
+- Auriculares
+- Impresora
+
+Dispositivos de entrada y salida:
+
+- Pendrive
+- Disco rígido o de estado sólido
+- Pantalla táctil
