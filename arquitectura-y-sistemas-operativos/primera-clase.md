@@ -17,7 +17,7 @@ Son los **componentes electrónicos** que juntos forman lo que hoy conocemos com
 Son los **programas** que se ejecutan en el hardware de una computadora.
 
 #### Programa
-Es una serie de instrucciones que realiza alguna tarea.
+Es un conjunto de instrucciones, escritas en un lenguaje de programación, que le indica a la computadora cómo realizar una tarea específica.
 
 ## Arquitectura actual de computadoras
 
