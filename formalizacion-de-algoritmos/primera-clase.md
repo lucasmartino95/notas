@@ -39,6 +39,8 @@ Se puede representar un algoritmo a través de diagramas o código.
 
 ## Lenguajes de programación
 
+Un **lenguaje de programación** es un conjunto formal de reglas, símbolos y palabras clave que permite a los humanos dar instrucciones a una computadora para ejecutar tareas específicas. 
+
 Hay **muchos lenguajes de programación** que podemos utilizar para desarrollar nuestros programas. **Python** es uno de los lenguajes más sencillos de aprender ya que su **léxico** y **sintáxis** se asemejan mucho al inglés.
 
 Existen lenguajes de **alto nivel** y lenguajes de **bajo nivel**.
