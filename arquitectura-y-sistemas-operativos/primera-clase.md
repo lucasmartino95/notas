@@ -73,7 +73,7 @@ Una desventaja de utilizar esta técnica es que **aumenta el calor que emite el 
 
 ## Memoria RAM
 
-La memoria RAM está hecha de celdas, donde cada celda está identificada con un número. Es donde **se guardan los datos e instrucciones de nuestro programa** para que luego el procesador ejecute nuestro programa.
+La memoria RAM está hecha de celdas, donde cada celda está identificada con un número. Es donde **se guardan los datos e instrucciones de nuestro programa** para que luego el procesador lo ejecute.
 
 ## Dispositivos de entrada y salida
 
