@@ -42,3 +42,4 @@ print(f"Nombre: {nombre}\nEdad: {edad}")
 
 La mutabilidad es la posiblidad de cambiar el tipo de dato que contiene una variable.
 
+(Falta completar)
