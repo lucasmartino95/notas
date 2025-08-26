@@ -6,7 +6,7 @@ La **modularización** permite dividir programas en partes reutilizables y acced
 
 # Variables
 
-En Python las variables son más bien **etiquetas**. Una variable es una etiqueta que apunta a un valor en memoria. Por ejemplo:
+En **Python** las variables son más bien **etiquetas**. Una variable es una etiqueta que apunta a un valor en memoria. Por ejemplo:
 
 ```python
 variable_numerica = 14
