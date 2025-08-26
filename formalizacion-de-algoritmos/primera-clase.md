@@ -11,8 +11,6 @@ En este documento se detallan **temas fundamentales** de programación, como:
 - **Interpolación**
 - **Trabajar con porcentajes** 
 
-Los ejemplos de código estarán escritos en **Python**.
-
 ## Algoritmo
 
 Es un **conjunto de pasos lógicos y estructurados** que nos permiten dar solución a un problema.
