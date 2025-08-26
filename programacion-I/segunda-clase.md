@@ -40,7 +40,7 @@ print(f"Nombre: {nombre}\nEdad: {edad}")
 
 # Mutabilidad / Inmutabilidad
 
-La **mutabilidad** es la posiblidad de cambiar el dato que contiene una variable. Por ejemplo: **listas, sets, y diccionarios**.
+La **mutabilidad** es la posiblidad de cambiar el valor que contiene un objeto. Por ejemplo: **listas, sets, y diccionarios**.
 
 ```python
 mi_lista = ["Banana", "Manzana", "Naranja"]
@@ -52,7 +52,7 @@ mi_lista_nueva.append("Pomelo")
 print(mi_lista, mi_lista_nueva)
 ```
 
-La **inmutabilidad** no permite cambiar el dato que contiene una variable. Por ejemplo: **números, strings, booleanos**.
+La **inmutabilidad** no permite cambiar el valor que contiene un objeto. Por ejemplo: **números, strings, booleanos**.
 
 ```python
 edad = 18
