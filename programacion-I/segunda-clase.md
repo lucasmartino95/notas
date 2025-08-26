@@ -29,7 +29,7 @@ Cada objeto tiene:
 
 ### Indicar tipo de dato
 
-En **Python** podemos indicar el tipo de dato de una variable para hacer más legible el código. De todas maneras, el intérprete no toma en cuenta esta referencia. Esto se llama **anotaciones de tipo** (type hints). Por ejemplo:
+En **Python** podemos indicar el tipo de dato de una variable para hacer más legible el código. De todas maneras, el intérprete no toma en cuenta esta indicación. Esto se llama **anotaciones de tipo** (type hints). Por ejemplo:
 
 ```python
 nombre: str = "Lucas"
