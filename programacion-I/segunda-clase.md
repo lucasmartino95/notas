@@ -40,6 +40,22 @@ print(f"Nombre: {nombre}\nEdad: {edad}")
 
 # Mutabilidad / Inmutabilidad
 
-La mutabilidad es la posiblidad de cambiar el tipo de dato que contiene una variable.
+La **mutabilidad** es la posiblidad de cambiar el dato que contiene una variable. Por ejemplo: **listas, sets, y diccionarios**.
 
-(Falta completar)
+```python
+mi_lista = ["Banana", "Manzana", "Naranja"]
+print(id(mi_lista)) # Imprime el id
+print(mi_lista)
+mi_lista_nueva = mi_lista # Ahora mi_lista_nueva y mi_lista apuntan a la misma dirección en memoria. Por lo que si hago cambios en la lista nueva, también se haran en la lista inicial.
+print(id(mi_lista_nueva))
+mi_lista_nueva.append("Pomelo")
+print(mi_lista, mi_lista_nueva)
+```
+
+La **inmutabilidad** no permite cambiar el dato que contiene una variable. Por ejemplo: **números, strings, booleanos**.
+
+```python
+edad = 18
+print(id(edad)) # Imprime el id de la variable
+edad = 20
+print(id(edad)) # Destruye el id anterior y crea uno nuevo, por lo que no estamos cambiando el valor a la variable, sino que estamos apuntando a un nuevo valor con distinto id
