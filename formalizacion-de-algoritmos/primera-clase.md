@@ -106,7 +106,7 @@ print(var) # Imprime el nuevo valor de var
 
 ### Constantes en Python
 
-En Python no existen las constantes, sin embargo se puede seguir una convención para mantener el código legible. Se trata de escribir el **nombre de la constante en mayúsculas**.
+En **Python** no existen las constantes, sin embargo se puede seguir una convención para mantener el código legible. Se trata de escribir el **nombre de la constante en mayúsculas**.
 
 ```python
 TITULO_CURSO = "curso introducción"
