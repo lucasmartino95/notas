@@ -10,11 +10,11 @@ Toda computadora está formada por dos componentes: **hardware** y **software**.
 
 ## Hardware
 
-Son los **componentes electrónicos** que juntos forman lo que hoy conocemos como computadora.
+Es la parte física. Está **compuesto** por el equipo y los dispositivos que conforman o están asociados a él.
 
 ## Software
 
-Son los **programas** que se ejecutan en el hardware de una computadora.
+Es la parte lógica. Son los **programas, procedimientos o datos**, asociados con el procesamiento de datos.
 
 #### Programa
 Es un conjunto de instrucciones, escritas en un lenguaje de programación, que le indica a la computadora cómo realizar una tarea específica.
