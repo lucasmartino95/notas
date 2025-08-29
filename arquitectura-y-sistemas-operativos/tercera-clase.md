@@ -20,4 +20,4 @@ El sistema operativo donde se ejecuta la máquina virtual es conocido como **anf
 
 ## Vagrant
 
-**Vagrant** es un software que nos permite automatizar la instalación de máquinas virtuales, además de darnos la posibilidad de instalar software o dependencias a través de un archivo de configuración. Esto nos permite **replicar fácilmente entornos de desarrollo iguales** en distintas máquinas fisicas.
+**Vagrant** es un software que nos permite **automatizar la instalación de máquinas virtuales**, además de darnos la posibilidad de instalar software o dependencias a través de un archivo de configuración. Esto nos permite **replicar fácilmente entornos de desarrollo iguales** en distintas máquinas fisicas.
