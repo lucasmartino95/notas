@@ -41,6 +41,38 @@ Las computadoras convencionales siguen la arquitectura propuesta a principio de 
 
 Toda la información viaja a través de los distintos componentes en **sistema binario**, es decir con ceros y unos. También se puede referenciar el cero con "apagado" y el uno con "encendido".
 
+## Arquitectura de los sistemas operativos
+
+### Kernel
+
+El **sistema operativo** está compuesto por capas.
+
+El **Kernel o núcleo** es la capa más cercana al **hardware** y cumple las funciones más importantes. Es el que interactua con el **hardware**. Le indica cómo debe manejar ciertos aspectos, como por ejemplo cómo manejar la memoria, cómo manejar la entrada y salida de datos, cómo manejar el sistema de archivos. Es un **software de base**.
+
+Todo esto lo puede hacer mediante **controladores de hardware, gestión de procesos y gestión de memoria**.
+
+#### Tipos de kernel
+
+##### Monolítico
+
+Todos los servicios, gestión de procesos y memoria **se ejecutan dentro del kernel**. Esto garantiza un muy buen rendimiento del sistema.
+
+##### Microkernel
+
+**Solo incluye las funciones más básicas**, el resto de servicios del sistema operativo se ejecutan en procesos separados en el espacio de usuario.
+
+##### Híbrido
+
+Es una **combinación** del kernel monolítico y el microkernel.
+
+### Llamadas al sistema
+
+Cada vez que hacemos clic o ejecutamos un comando en la shell, hacemos una **llamada al sistema operativo**, el cual deriva la llamada a distintos procesos internos para hacer una devolución.
+
+#### GUI / Shell
+
+Podemos interactuar con el sistema operativo a través de una [GUI (Graphical User Interface)](https://es.wikipedia.org/wiki/Interfaz_gr%C3%A1fica_de_usuario) o una [línea de comandos](https://es.wikipedia.org/wiki/L%C3%ADnea_de_comandos_de_Windows). Comúnmente la línea de comandos es más poderosa que una GUI, es decir, podemos hacer operaciones más avanzadas.
+
 ## Procesador
 
 Es el responsable de **ejecutar programas**.
@@ -109,3 +141,23 @@ Dispositivos de entrada y salida:
 - Pendrive
 - Disco rígido o de estado sólido
 - Pantalla táctil
+
+# Virtualización
+
+Es una técnica para crear máquinas virtuales dentro de un equipo físico real.
+
+Cada una de estas máquinas que podemos crear, pueden tener **sistemas operativos diferentes** y **son independientes** una de otras.
+
+Podemos utilizar máquinas virtuales para probar cosas.
+
+Para virtualizar, sobre el sistema operativo de nuestra máquina, instalamos un software llamado [hipervisor](https://www.redhat.com/es/topics/virtualization/what-is-a-hypervisor). Por ejemplo, VirtualBox. Este software nos permite **configurar el hardware de nuestra máquina virtual**.
+
+### Hipervisor de tipo 1 y tipo 2
+
+- **Tipo 1**: se instala directamente como software de base. Comúnmente se utiliza en servidores.
+
+- **Tipo 2**: se instala sobre el sistema operativo de la máquina.
+
+### Anfitrión y sistemas invitados
+
+El sistema operativo donde se ejecuta la máquina virtual es conocido como **anfitrión**. En cambio, el sistema operativo que se ejecuta dentro de una máquina virtual, es conocido como **sistema invitado o guest**.
