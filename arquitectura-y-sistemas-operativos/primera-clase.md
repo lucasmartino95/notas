@@ -19,6 +19,18 @@ Es la parte lógica. Son los **programas, procedimientos o datos**, asociados co
 #### Programa
 Es un conjunto de instrucciones, escritas en un lenguaje de programación, que le indica a la computadora cómo realizar una tarea específica.
 
+### Clasificación de software
+
+#### Software libre
+
+El software libre surge por un proyecto llamado **GNU**. Su fundador [Richard Stallman](https://es.wikipedia.org/wiki/Richard_Stallman), quería que **GNU** se pareciera a **UNIX**. Pero no creó el *kernel* del sistema operativo, sino que usó **Linux**. Por eso se escribe **GNU/Linux** para referirse a una distribución comúnmente llamada **Linux**.
+
+El código de software libre se puede **copiar y distribuir**. También, podemos utilizar los programas de software libre para cualquier fin.
+
+#### Software propietario
+
+El código del software propietario es **cerrado**, o sea que **no se puede copiar o distribuir**. Tampoco podemos modificar su funcionamiento. Un ejemplo es **Windows o Mac**
+
 ## Arquitectura actual de computadoras
 
 Las computadoras convencionales siguen la arquitectura propuesta a principio de los años 40 por [Von Neumann](https://es.wikipedia.org/wiki/Arquitectura_de_Von_Neumann):
