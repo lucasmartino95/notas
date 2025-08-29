@@ -160,4 +160,4 @@ Para virtualizar, sobre el sistema operativo de nuestra máquina, instalamos un 
 
 ### Anfitrión y sistemas invitados
 
-El sistema operativo donde se ejecuta la máquina virtual es conocido como **anfitrión**. En cambio, el sistema operativo que se ejecuta dentro de una máquina virtual, es conocido como **sistema invitado o guest**.
+El sistema operativo donde se ejecuta la máquina virtual es conocido como **anfitrión o host**. En cambio, el sistema operativo que se ejecuta dentro de una máquina virtual, es conocido como **sistema invitado o guest**.
