@@ -146,7 +146,7 @@ Dispositivos de entrada y salida:
 
 Es una técnica para crear máquinas virtuales dentro de un equipo físico real.
 
-Cada una de estas máquinas que podemos crear, pueden tener **sistemas operativos diferentes** y **son independientes** una de otras.
+Cada una de estas máquinas que podemos crear, pueden tener **sistemas operativos diferentes** y **son independientes** unas de otras.
 
 Podemos utilizar máquinas virtuales para probar cosas.
 
