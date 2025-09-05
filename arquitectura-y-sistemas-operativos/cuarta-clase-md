@@ -52,6 +52,8 @@ Intercambia la información del disco duro a la memoria RAM.
 
 - **Swapping** (Linux): Utiliza un espacio de disco como la extensión de memoria RAM. Es un espacio definido cuando instalamos el sistema operativo. Luego se puede agrandar o achicar.
 
+Notar que tanto la paginación como la segmentación utilizan espacio en disco como memoria virtual.
+
 ### Memoria caché
 
 Es donde se guardan los procesos que son **ejecutados habitualmente**. Esta memoria es mucho más rápida que la memoria RAM y está ubicada dentro del procesador.
