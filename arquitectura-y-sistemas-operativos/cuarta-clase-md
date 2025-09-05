@@ -2,7 +2,7 @@
 
 ## Gestión de procesos
 
-El **sistema operativo** crea un identificador para la aplicación que queremos ejecutar. Además, **crea un bloque de control** que es asignado a la aplicación. En ese bloque se guarda toda la información referida a esa aplicación:
+El **sistema operativo** crea un **bloque de control** que es asignado a la aplicación. En ese bloque se guarda toda la información referida a esa aplicación:
 
 - **Estado actual del proceso**
 - **Identificador del proceso**
