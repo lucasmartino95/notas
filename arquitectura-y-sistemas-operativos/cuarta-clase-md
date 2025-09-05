@@ -48,7 +48,7 @@ Intercambia la información del disco duro a la memoria RAM.
 
 - **Paginación**: Divide la memoria RAM y el almacenamiento secundario (disco) en bloques de tamaño fijo. No genera fragmentación de la memoria RAM.
 
-- **Segmentación**: No divide a la memoria RAM en espacios iguales. En cambio, divide al proceso en distintas partes que tiene el código. Por ejemplo agrupa las instrucciones por un lado, la asignación de variables por otro lado.
+- **Segmentación**: No divide a la memoria RAM en espacios iguales. En cambio, divide al proceso en las distintas partes que tiene el código. Por ejemplo agrupa las instrucciones por un lado, la asignación de variables por otro lado.
 
 - **Swapping** (Linux): Utiliza un espacio de disco como la extensión de memoria RAM. Es un espacio definido cuando instalamos el sistema operativo. Luego se puede agrandar o achicar.
 
