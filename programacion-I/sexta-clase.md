@@ -92,6 +92,23 @@ print(mensaje)
 
 El **parámetro actual** es la variable o dato que recibe la función al momento de ser invocada.
 
+#### Scope
+
+El término **scope** hace referencia al alcance de una variable, por ejemplo la palabra reservada **global** indica que estamos trabajando con una variable a nivel global dentro de por ejemplo una función.
+
+En cambio, si no usamos la palabra global, todas las variables dentro de una función son **locales**.
+
+```python
+mi_nombre = "Lucas"
+
+def imprimir_nombre():
+    global mi_nombre
+    mi_nombre = "Roberto"
+    print(mi_nombre)
+
+imprimir_nombre()
+```
+
 ### Posición de los parámetros
 
 ```python
