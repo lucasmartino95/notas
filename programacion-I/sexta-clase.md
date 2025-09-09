@@ -172,12 +172,14 @@ El objetivo de la documenatción es útil para indicarnos qué hace un determina
 
 ```python
 def sumar(numero_a: int, numero_b: int) -> int:
-    '''Qué hace la función
+    '''Función que se encarga de sumar dos números enteros
 
     Args:
-        Qué parámetros recibe
+        numero_a (int): Primer número
+        numoer_b (int): Segundo número
+
     Returns:
-        Qué retorna
+        int: Devuelve la suma entre estos dos números 
     '''
     suma = numero_a + numero_b
     return suma
