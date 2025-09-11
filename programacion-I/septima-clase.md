@@ -53,4 +53,3 @@ from .docentes import *
 # Dentro del archivo main.py
 from utn import *
 ```
-
