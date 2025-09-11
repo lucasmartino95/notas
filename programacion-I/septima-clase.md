@@ -53,3 +53,7 @@ from .docentes import *
 # Dentro del archivo main.py
 from utn import *
 ```
+
+# Control de versiones
+
+[GitHub](https://github.com/) es una plataforma que permite alojar repositorios [git](https://git-scm.com/) en la nube, para acceder a ellos remotamente permitiendo colaborar en proyectos de software.
