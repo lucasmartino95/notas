@@ -45,8 +45,8 @@ Por ejemplo
 ```python
 # Dentro de un archivo __init__.py en la carpeta utn
 
-from alumnos import *
-from docentes import *
+from .alumnos import *
+from .docentes import *
 ```
 
 ```python
