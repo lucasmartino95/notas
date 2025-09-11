@@ -56,4 +56,6 @@ from utn import *
 
 # Control de versiones
 
+**Git** es un software de control de versiones. Permite rastrear los cambios que hay en el desarrollo de un software. Para ello, git crea un repositorio en nuestra máquina local.
+
 [GitHub](https://github.com/) es una plataforma que permite alojar repositorios [git](https://git-scm.com/) en la nube, para acceder a ellos remotamente permitiendo colaborar en proyectos de software.
