@@ -35,3 +35,22 @@ from modulo_alumnos import *
 imprimir_nombre("Lucas")
 devolver_promedio(8, 2)
 ```
+
+# Paquetes
+
+Las funciones se agrupan en módulos, y los módulos en paquetes.
+
+Por ejemplo
+
+```python
+# Dentro de un archivo __init__.py en la carpeta utn
+
+from alumnos import *
+from docentes import *
+```
+
+```python
+# Dentro del archivo main.py
+from utn import *
+```
+
