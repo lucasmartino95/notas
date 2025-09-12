@@ -17,3 +17,5 @@ Para salir de la máquina virtual y apagarla, primero escribimos: `exit` en la c
 Para conectarnos a GitHub, podemos utilizar SSH, y así no será necesario ingresar la contraseña de nuestra cuenta cada vez que queramos realizar una acción en GitHub desde nuestro repositorio local.
 
 [Guía para conectarse a GitHub a través de SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
+
+Notar que al generar una clave nos creará una clave pública y una privada. La clave pública es la que podemos compartir. 
