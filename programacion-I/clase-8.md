@@ -67,3 +67,15 @@ def imprimir_numero(n: int) -> None:
 
 imprimir_numero(0)
 ```
+
+## Ventajas de usar recursividad
+
+- Es una solución elegante.
+- Simplicidad conceptual
+- Facilidad de mantenimiento
+
+## Desventajas de usar recursivdad
+
+- Consumo de memoria
+- Eficiencia
+- Límite de recursión
