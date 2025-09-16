@@ -4,7 +4,7 @@ A medida que los programas crecen, se hace necesario **separar el código** en d
 
 ## Main
 
-Es el archivo donde utilizaremos las funciones,  de los distintos módulos de nuestro programa.
+Es el archivo donde utilizaremos las funciones, de los distintos módulos de nuestro programa.
 
 ```python
 """ Supongamos que tenemos un archivo llamado modulo_alumnos
