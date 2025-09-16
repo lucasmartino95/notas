@@ -79,4 +79,4 @@ imprimir_numero(0)
 - Consumo de memoria
 - Eficiencia
 - Límite de recursión
-- Cálculos redundantes
+- Posibles cálculos redundantes
