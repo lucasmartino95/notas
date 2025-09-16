@@ -1,23 +1,15 @@
-numero = int(input("Ingrese un número para iniciar cuenta regresiva: "))
+factorial = int(input("Ingrese el número del que quiere calcular el factorial: "))
 
-for i in range(numero, -1, -1):
-    print(i)
+def calcular_factorial(n: int) -> int:
 
-def contar_regresivamente(n: int) -> None:
-    '''
-    Cuenta regresivamente
-
-    Recibe un número desde el que inicia la cuenta
-
-    No retorna nada
-    '''
-
-    if n == -1:
-        print("Finalizó")
+    if n == 0:
+        resultado = 1
     else:
-        print(n)
-        contar_regresivamente(n - 1)
+        resultado = n * calcular_factorial(n - 1)
 
-print("Ahora se aplica la recursividad")
+    return resultado
 
-contar_regresivamente(10)
+
+resultado_ejemplo = calcular_factorial(factorial)
+
+print(f"El factorial de {factorial} es {resultado_ejemplo}")

@@ -29,3 +29,27 @@ print("Ahora se aplica la recursividad")
 
 contar_regresivamente(10)
 ```
+
+Otro ejemplo de recursividad
+
+```python
+# Factorial de 5
+# 5!
+# 5 * 4 * 3 * 2 * 1
+
+factorial = int(input("Ingrese el número del que quiere calcular el factorial: "))
+
+def calcular_factorial(n: int) -> int:
+
+    if n == 0:
+        resultado = 1
+    else:
+        resultado = n * calcular_factorial(n - 1)
+
+    return resultado
+
+
+resultado_ejemplo = calcular_factorial(factorial)
+
+print(resultado_ejemplo)
+```
