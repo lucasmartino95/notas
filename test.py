@@ -1,15 +1,7 @@
-factorial = int(input("Ingrese el número del que quiere calcular el factorial: "))
+def imprimir_numero(n: int) -> None:
+    if n > int(-996):
+        imprimir_numero(n - 1)
 
-def calcular_factorial(n: int) -> int:
+    print(n)
 
-    if n == 0:
-        resultado = 1
-    else:
-        resultado = n * calcular_factorial(n - 1)
-
-    return resultado
-
-
-resultado_ejemplo = calcular_factorial(factorial)
-
-print(f"El factorial de {factorial} es {resultado_ejemplo}")
+imprimir_numero(0)

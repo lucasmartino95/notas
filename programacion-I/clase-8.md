@@ -53,3 +53,17 @@ resultado_ejemplo = calcular_factorial(factorial)
 
 print(f"El factorial de {factorial} es {resultado_ejemplo}")
 ```
+
+# Espacio en memoria
+
+Cada vez que la función se llama a sí misma, **Python** guarda en memoria con diferente dirección a la función llamada. La **pila de llamadas** de una función recursiva tiene un límite, caso contrario nos arrojara un error: **RecursionError**.
+
+```python
+def imprimir_numero(n: int) -> None:
+    if n > int(-1000):
+        imprimir_numero(n - 1)
+
+    print(n)
+
+imprimir_numero(0)
+```
