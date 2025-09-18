@@ -31,6 +31,16 @@ lista = inicializar_lista(9, "m")
 print(lista)
 ```
 
+### Acceder a un elemento de la lista
+
+```python
+lista = [1, 2, 3]
+
+print(lista[0]) # Imprimirá 1
+
+print(lista[-1]) # Imprimirá 3
+```
+
 ## Memoria stack y memoria heap
 
 La **memoria stack** es estática, tiene un tamaño fijo y predefinado. Almacena variables locales y retornos de una función. Es **gestionada de manera automática** en tiempo de ejecución.
