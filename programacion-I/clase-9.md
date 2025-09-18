@@ -88,12 +88,16 @@ cargar_lista(lista_2, "Ingrese cantidad de camisetas: ")
 mostrar_lista(lista_2)
 ```
 
-#### Aleatoria
+#### Aleatoria o distribuido
 
 ```python
 def cargar_distribuido(lista: list, posicion: int) -> list:
     lista_2[posicion] = input(f"Ingrese nuevo valor para posición {posicion}")
 ```
+
+#### Nota
+
+Es mejor trabajar con **posiciones** para estandarizar los algoritmos donde utilicemos listas. Es decir, que funcione de la misma manera con diferentes listas.
 
 ## Memoria stack y memoria heap
 
