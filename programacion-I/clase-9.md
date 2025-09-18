@@ -10,6 +10,9 @@ for i in range(len(notas_perez)):
         print(f"Perez aún no aprobó la materia {i}")
 ```
 
-# Matrices
+Otro ejemplo de cómo crear una lista
 
-Es un vector de vectores.
+```python
+lista_1 = list((1, 2, 3, 66, 7))
+print(lista_1)
+```
