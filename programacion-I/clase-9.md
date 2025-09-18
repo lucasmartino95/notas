@@ -10,9 +10,24 @@ for i in range(len(notas_perez)):
         print(f"Perez aún no aprobó la materia {i}")
 ```
 
-Otro ejemplo de cómo crear una lista
+Otrosejemplos de cómo crear una lista
 
 ```python
 lista_1 = list((1, 2, 3, 66, 7))
 print(lista_1)
 ```
+
+```python
+lista = [0] * 5
+print(lista)
+```
+
+## Memoria stack y memoria heap
+
+La **memoria stack** es estática, tiene un tamaño fijo y predefinado. Almacena variables locales y retornos de una función. Es **gestionada de manera automática** en tiempo de ejecución.
+
+Por otro lado, la **memoria heap** es dinámica, tiende a crecer mucho. Almacena objetos, listas y diccionarios. Es gestionada de manera manual o automática.
+
+- **Manual**: Lo hace el programador. Es el encargado de reservar y liberar la memoria para una variable determinada, por ejemplo en en el lenguaje C.
+
+- **Automática**: Lo gestiona el lenguaje. El mismo reserva espacio en memoria dinámica y al momento de liberar la misma se apoya en un software llamado: Recolector de Basura.
