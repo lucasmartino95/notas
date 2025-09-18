@@ -37,8 +37,26 @@ print(lista)
 lista = [1, 2, 3]
 
 print(lista[0]) # Imprimirá 1
-
 print(lista[-1]) # Imprimirá 3
+```
+
+### Mostrar una lista y modificar elementos
+
+```python
+def inicializar_lista(cantidad_elementos: int, valor_por_defecto: any = 0) -> list:
+    return [valor_por_defecto] * cantidad_elementos
+
+
+def mostrar_lista(lista: list):
+    for i in range(len(lista)):
+        print(f"Indice {i} = {lista[i]}")
+        
+
+lista_2 = inicializar_lista(9, "m")    
+
+lista_2[2] = "a"
+
+mostrar_lista(lista_2)
 ```
 
 ## Memoria stack y memoria heap

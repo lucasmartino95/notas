@@ -2,5 +2,13 @@ def inicializar_lista(cantidad_elementos: int, valor_por_defecto: any = 0) -> li
     return [valor_por_defecto] * cantidad_elementos
 
 
-lista = inicializar_lista(9, "m")
-print(lista)
+def mostrar_lista(lista: list):
+    for i in range(len(lista)):
+        print(f"Indice {i} = {lista[i]}")
+        
+
+lista_2 = inicializar_lista(9, "m")    
+
+lista_2[2] = "a"
+
+mostrar_lista(lista_2)
