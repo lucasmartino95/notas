@@ -54,7 +54,7 @@ def mostrar_lista(lista: list):
 
 lista_2 = inicializar_lista(9, "m")    
 
-lista_2[2] = "a"
+lista_2[2] = "a" # Modifica el elemento de la posición 2
 
 mostrar_lista(lista_2)
 ```
