@@ -1,2 +1,6 @@
-lista_1 = list((1, 2, 3, 66, 7))
-print(lista_1)
+def inicializar_lista(cantidad_elementos: int, valor_por_defecto: any = 0) -> list:
+    return [valor_por_defecto] * cantidad_elementos
+
+
+lista = inicializar_lista(9, "m")
+print(lista)

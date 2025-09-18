@@ -10,7 +10,7 @@ for i in range(len(notas_perez)):
         print(f"Perez aún no aprobó la materia {i}")
 ```
 
-Otrosejemplos de cómo crear una lista
+Otros ejemplos de cómo crear una lista
 
 ```python
 lista_1 = list((1, 2, 3, 66, 7))
@@ -19,6 +19,15 @@ print(lista_1)
 
 ```python
 lista = [0] * 5
+print(lista)
+```
+
+```python
+def inicializar_lista(cantidad_elementos: int, valor_por_defecto: any = 0) -> list:
+    return [valor_por_defecto] * cantidad_elementos
+
+
+lista = inicializar_lista(9, "m")
 print(lista)
 ```
 
