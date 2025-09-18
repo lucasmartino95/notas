@@ -4,7 +4,7 @@ def inicializar_lista(cantidad_elementos: int, valor_por_defecto: any = 0) -> li
 
 def mostrar_lista(lista: list):
     for i in range(len(lista)):
-        print(f"Indice {i} = {lista[i]}")
+        print(f"Indice {i} = {lista[i]}", end= "-")
         
 
 lista_2 = inicializar_lista(9, "m")    
