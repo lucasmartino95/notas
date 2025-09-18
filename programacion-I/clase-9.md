@@ -59,6 +59,42 @@ lista_2[2] = "a" # Modifica el elemento de la posición 2
 mostrar_lista(lista_2)
 ```
 
+### Carga de listas
+
+#### Secuencial
+
+```python
+def inicializar_lista(cantidad_elementos: int, valor_por_defecto: any = 0) -> list:
+    return [valor_por_defecto] * cantidad_elementos
+
+
+def mostrar_lista(lista: list):
+    for i in range(len(lista)):
+        print(f"Indice {i} = {lista[i]}", end="-")
+        
+
+def cargar_lista(lista: list, mensaje: str) -> list:
+    for i in range(len(lista)):
+        print(f"Posición {i}")
+        lista[i] = input(mensaje)
+
+    # return lista
+
+
+lista_2 = inicializar_lista(9, "m")    
+
+cargar_lista(lista_2, "Ingrese cantidad de camisetas: ")
+
+mostrar_lista(lista_2)
+```
+
+#### Aleatoria
+
+```python
+def cargar_distribuido(lista: list, posicion: int) -> list:
+    lista_2[posicion] = input(f"Ingrese nuevo valor para posición {posicion}")
+```
+
 ## Memoria stack y memoria heap
 
 La **memoria stack** es estática, tiene un tamaño fijo y predefinado. Almacena variables locales y retornos de una función. Es **gestionada de manera automática** en tiempo de ejecución.
