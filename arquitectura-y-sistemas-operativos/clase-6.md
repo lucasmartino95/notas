@@ -22,8 +22,16 @@ Para ver archivos desde la terminal, podemos usar el caomando `cat`. Por ejemplo
 
 Podemos usar el comando `grep`. Por ejemplo: `grep -i vagrant /etc/passwd`. La `-i` significa que no distinga entre mayúsculas y minúsculas.
 
-## Grupos
+## Grupos y usuarios
 
 Los grupos en Linux, se usan para administrar los permisos que tiene un usuario sobre los archivos.
 
 Para agregar un grupo, usamos `groupadd nombre_del_grupo`. Luego podemos crear un usuario y añadirlo al grupo que creamos: `useradd -m -s /bin/bash -c "Usuario lucas" -G nombre_del_grupo lucas`
+
+### Borrar un usuario
+
+`userdel nombre_de_usuario`
+
+### Modificar un usuario
+
+`usermod -s /bin/sh [usuario]`
