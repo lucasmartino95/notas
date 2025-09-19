@@ -21,3 +21,7 @@ Para ver archivos desde la terminal, podemos usar el caomando `cat`. Por ejemplo
 ## Buscar cadenas dentro de un archivo
 
 Podemos usar el comando `grep`. Por ejemplo: `grep -i vagrant /etc/passwd`. La `-i` significa que no distinga entre mayúsculas y minúsculas.
+
+## Grupos
+
+Los grupos en Linux, se usan para administrar los permisos que tiene un usuario sobre los archivos.
