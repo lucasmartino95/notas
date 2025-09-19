@@ -34,4 +34,4 @@ Para agregar un grupo, usamos `groupadd nombre_del_grupo`. Luego podemos crear u
 
 ### Modificar un usuario
 
-`usermod -s /bin/sh [usuario]`
+`usermod -s /bin/sh nombre_del_usuario`
