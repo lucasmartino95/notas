@@ -25,3 +25,5 @@ Podemos usar el comando `grep`. Por ejemplo: `grep -i vagrant /etc/passwd`. La `
 ## Grupos
 
 Los grupos en Linux, se usan para administrar los permisos que tiene un usuario sobre los archivos.
+
+Para agregar un grupo, usamos `groupadd nombre_del_grupo`. Luego podemos crear un usuario y añadirlo al grupo que creamos: `useradd -m -s /bin/bash -c "Usuario lucas" -G nombre_del_grupo lucas`
