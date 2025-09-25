@@ -1,3 +1,10 @@
+# Matrices
+
+Es una **estructura de datos bidimensional** que contiene elementos dispuestos en filas y columnas formando una tabla.
+
+Para hacer matrices en **Python**, usaremos listas anidadas.
+
+```python
 alumno_1 = [4, 7, 8]
 alumno_2 = [7, 9, 5]
 alumno_3 = [4, 2, 7]
@@ -32,4 +39,5 @@ mostrar_matriz(matriz_alumnos)
 
 # Para acceder a un elemento de la matriz podemos hacer:
 
-print(matriz_alumnos[2][1]) # Imprimirá Juan
+print(matriz_alumnos[1][2]) # Imprimirá Juan
+```
