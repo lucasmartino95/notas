@@ -51,3 +51,24 @@ Podemos progamar de manera sencilla y que se tenga un rendimiento óptimo en mem
 Medimos con un **cronómetro** cuánto tarda en ejecutarse nuestro algoritmo.
 
 Otra opción es utilizar el **órden de complejidad** que toma en cuenta la complejidad de un algoritmo en el peor de los casos.
+
+### Búsqueda lineal
+
+Es la búsqueda más sencilla de programar
+
+```python
+lista = [3, 5, 6, 8, 9, 11]
+
+
+def buscar_lineal(lista: list, buscado: int) -> int:
+    for i in range(len(lista)):
+        if lista[i] == buscado:
+            return i
+    
+    print("No se encuentra el elemento buscado")
+
+
+pos = buscar_lineal(lista, 8)
+
+print(f"El 8 se encuentra en la posición {pos}")
+```

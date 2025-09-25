@@ -1,35 +1,14 @@
-alumno_1 = [4, 7, 8]
-alumno_2 = [7, 9, 5]
-alumno_3 = [4, 2, 7]
-
-matriz_notas = [alumno_1, alumno_2, alumno_3]
-
-print(matriz_notas)
-
-alumno_1 = ["Perez", "José", 18]
-alumno_2 = ["Suarez", "Nicolas", 20]
-alumno_3 = ["Diaz", "Juan", 19]
-alumno_4 = ["Ramirez", "Pedro", 30]
-alumno_5 = ["Barceló", "Daniela", 24]
-
-matriz_alumnos = [alumno_1, alumno_2, alumno_3, alumno_4, alumno_5]
-
-print(matriz_alumnos)
-
-lista_3 = [[1, 2, 3], [4, 5, 6]]
+lista = [3, 5, 6, 8, 9, 11]
 
 
-def mostrar_matriz(matriz: list) -> None:
-    '''
-    '''
-    for i in range(len(matriz)):
-        for j in range(len(matriz[i])):
-            print(matriz[i][j], end=" ")
-        print("")
-        
+def buscar_lineal(lista: list, buscado: int) -> int:
+    for i in range(len(lista)):
+        if lista[i] == buscado:
+            return i
+    
+    print("No se encuentra el elemento buscado")
 
-mostrar_matriz(matriz_alumnos)
 
-# Para acceder a un elemento de la matriz podemos hacer:
+pos = buscar_lineal(lista, 8)
 
-print(matriz_alumnos[2][1]) # Imprimirá Juan
+print(f"El 8 se encuentra en la posición {pos}")
