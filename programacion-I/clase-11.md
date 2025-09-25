@@ -41,3 +41,13 @@ mostrar_matriz(matriz_alumnos)
 
 print(matriz_alumnos[1][2]) # Imprimirá Juan
 ```
+
+# Algoritmos de búsqueda
+
+Podemos progamar de manera sencilla y que se tenga un rendimiento óptimo en memoria.
+
+## ¿Cómo medir el rendimiento?
+
+Medimos con un **cronómetro** cuánto tarda en ejecutarse nuestro algoritmo.
+
+Otra opción es utilizar el **órden de complejidad** que toma en cuenta la complejidad de un algoritmo en el peor de los casos.
