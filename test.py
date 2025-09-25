@@ -12,3 +12,7 @@ def buscar_lineal(lista: list, buscado: int) -> int:
 pos = buscar_lineal(lista, 8)
 
 print(f"El 8 se encuentra en la posición {pos}")
+
+pos = buscar_lineal(lista, 15)
+
+print(f"El 15 se encuentra en la posición {pos}")
