@@ -13,3 +13,5 @@ Cuando hacemos `ls -l` cada directorio o archivo tendra esta información, por e
 Por ultimo, el primer rwx indica los **permisos del dueño**, el segundo rwx indica los **permisos del grupo**, y el tercer rwx indica los **permisos de otros usuarios**.
 
 `chmod 775 nombre_archivo` (notación octal) o para hacerlo de forma recursiva: `chmod -R 755 nombre_directorio`. Esto le da permiso al dueño de leer, escribir y ejecutar, y al grupo y a otros usuarios solo permiso de leer y ejecutar.
+
+Para cambiar el propietario y el grupo de un archivo podemos usar: `sudo chown nombre_propietario:nombre_grupo archivo` o para hacerlo de forma recursiva a un directorio `chown -R nombre_propietario:nombre_grupo nombre_dir/`
