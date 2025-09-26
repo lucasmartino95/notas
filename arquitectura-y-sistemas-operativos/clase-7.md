@@ -15,3 +15,7 @@ Por ultimo, el primer rwx indica los **permisos del dueño**, el segundo rwx ind
 `chmod 775 nombre_archivo` (notación octal) o para hacerlo de forma recursiva: `chmod -R 755 nombre_directorio`. Esto le da permiso al dueño de leer, escribir y ejecutar, y al grupo y a otros usuarios solo permiso de leer y ejecutar.
 
 Para cambiar el propietario y el grupo de un archivo podemos usar: `sudo chown nombre_propietario:nombre_grupo archivo` o para hacerlo de forma recursiva a un directorio `chown -R nombre_propietario:nombre_grupo nombre_dir/`
+
+## ¿Qué es un script?
+
+Es la ejecución de comandos de manera automática. Para ejecutar un script, utilizamos `bash nombre_script`
