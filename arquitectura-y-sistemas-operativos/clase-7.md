@@ -18,4 +18,12 @@ Para cambiar el propietario y el grupo de un archivo podemos usar: `sudo chown n
 
 ## ¿Qué es un script?
 
-Es la ejecución de comandos de manera automática. Para ejecutar un script, utilizamos `bash nombre_script`
+Es la ejecución de comandos de manera automática. Para ejecutar un script, utilizamos `bash nombre_script`. 
+
+Otra manera de crear un script (es la que usaremos): 
+
+- Creamos el archivo con extensión **.sh** (no es obligatorio, pero si colocamos la extensión todos pueden reconocer que es un script).
+
+- Colocar el **shebang** (#!/bin/bash) al inicio del archivo.
+
+- Para ejecutar, utilizamos `./nombre_script` (antes debemos asignar al usuario permiso de ejecución).
